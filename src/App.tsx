@@ -19,7 +19,7 @@ function App() {
     client.models.Todo.create({ content: window.prompt("Todo content") });
   }
 
-// adding function delete
+// adding function delete test
     function deleteTodo(id: string) {
         client.models.Todo.delete({ id })
     }
@@ -52,6 +52,7 @@ function App() {
 
           )}
       </Authenticator>
+
   );
 }
 
